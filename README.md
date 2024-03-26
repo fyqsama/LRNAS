@@ -11,12 +11,11 @@ This is the code implementation for the paper "LRNAS: Differentiable Searching f
 
 ## Run
 
-### CNN
-Run `train_search.py` to perform the search process to search for the CNN architectures.
-Run `adv_train.py` to train the searched architectures on CIFAR-10 or CIFAR-100.
-Run `adv_train_tinyimagenet.py` or `adv_train_imagenet.py` to train architectures on Tiny-ImageNet-200 or ImageNet-1K, respectively.
-Run `adv_test.py` to test the trained architectures on CIFAR-10, CIFAR-100, or Tiny-ImageNet-200. 
-Run `adv_test_imagenet.py` to test the trained architectures on ImageNet-1K.
+- Run `train_search.py` to perform the search process to search for the CNN architectures.
+- Run `adv_train.py` to train the searched architectures on CIFAR-10 or CIFAR-100.
+- Run `adv_train_tinyimagenet.py` or `adv_train_imagenet.py` to train architectures on Tiny-ImageNet-200 or ImageNet-1K, respectively.
+- Run `adv_test.py` to test the trained architectures on CIFAR-10, CIFAR-100, or Tiny-ImageNet-200. 
+- Run `adv_test_imagenet.py` to test the trained architectures on ImageNet-1K.
 
 ## References
 - [DARTS](https://github.com/quark0/darts)
