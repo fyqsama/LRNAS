@@ -4,7 +4,6 @@ This is the code implementation for the paper "LRNAS: Differentiable Searching f
 
 ## Requirements
 
-### CNN
 - Python 3.7.4
 - torch 1.8.0 + cu111
 - torchvision 0.9.0 + cu111
