@@ -74,20 +74,6 @@ def _data_transforms_cifar10(args):
     return train_transform, valid_transform
 
 
-def _data_transforms_svhn(args):
-    train_transform = transforms.Compose([
-        transforms.ToTensor(),
-    ])
-    if args.cutout:
-        train_transform.transforms.append(Cutout(args.cutout_length))
-
-    valid_transform = transforms.Compose([
-        transforms.ToTensor(),
-    ])
-
-    return train_transform, valid_transform
-
-
 def _data_transforms_imagenet():
     train_transform = transforms.Compose([
         transforms.RandomCrop(64, padding=4),
