@@ -1,4 +1,4 @@
-# LRNAS
+# LRNAS: Differentiable Searching for Adversarially Robust Lightweight Neural Architecture
 
 This is the code implementation for the paper "LRNAS: Differentiable Searching for Adversarially Robust Lightweight Neural Architecture". 
 
